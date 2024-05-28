@@ -1,0 +1,11 @@
+{
+  "extends": "@adonisjs/tsconfig/tsconfig.package.json",
+  "compilerOptions": {
+    "rootDir": "./",
+    "outDir": "./build",
+    "strictPropertyInitialization": false,
+    "paths": {
+      "#src/*": ["./src/*.js"]
+    }
+  }
+}
